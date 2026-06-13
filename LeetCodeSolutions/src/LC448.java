@@ -1,9 +1,6 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 //https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
 public class LC448 {
-
     public static void main(String[] args) {
         int[] arr = {4,3,2,7,8,2,3,1};
         System.out.println(findDisappearedNumbers(arr));
@@ -29,7 +26,6 @@ public class LC448 {
                 list.add(j);
             }
         }
-
 
         return list;
     }
