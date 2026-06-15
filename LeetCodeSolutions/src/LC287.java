@@ -1,7 +1,7 @@
 public class LC287 {
 
     public static void main(String[] args) {
-        int[] arr = {1,3,4,2,2};
+        int[] arr = {1,3,8,2,2};
         System.out.println(findDuplicate(arr));
     }
 
