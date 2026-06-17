@@ -11,7 +11,9 @@ public class LC41FirstMissingPositive {
             int correct = nums[i] - 1;
 
             if (nums[i] > 0 && nums[i] <= nums.length && nums[i] != nums[correct]) {
-                swap(nums, i, correct);
+                int temp = nums[i];
+                nums[i] = nums[correct];
+                nums[correct] = temp;
             } else {
                 i++;
             }
@@ -26,9 +28,4 @@ public class LC41FirstMissingPositive {
         return nums.length + 1;
     }
 
-    public void swap(int[] arr, int i, int j) {
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
-    }
 }
