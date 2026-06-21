@@ -1,7 +1,7 @@
 public class LC704RecursiveBinarySearch {
     public static void main(String[] args) {
         int[] arr = {-1,0,3,5,9,12};
-        System.out.println(binarySearch(arr, 0, arr.length - 1, 9));
+        System.out.println(binarySearch(arr, 0, arr.length - 1, 12));
     }
 
     public static int binarySearch(int[] arr, int start, int end, int target) {
