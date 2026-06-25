@@ -1,8 +1,8 @@
 public class LC509Fibonacci {
     public static void main(String[] args) {
         int n = 5;
-//        System.out.println(fib(n));
-        System.out.println(fib1(50));
+        System.out.println(fib(n));
+//        System.out.println(fib1(50));
     }
 
     public static int fib(int n) {
