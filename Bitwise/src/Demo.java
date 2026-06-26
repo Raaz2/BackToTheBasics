@@ -12,7 +12,7 @@ public class Demo {
 
 
 //        odd even without modulo %
-        System.out.println((n & 1) == 1 ? "ODD" : "EVEN");
+        System.out.println((n & 1) == 0 ? "EVEN" : "ODD");
 
     }
 
