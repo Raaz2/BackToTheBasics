@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class LC344ReverseString {
     public static void main(String[] args) {
-        String[] arr = {"h","e","l","l","o"};
+        String[] arr = {"r","a","j","e","e", "v"};
         reverseString(arr);
         System.out.println(Arrays.toString(arr));
     }
