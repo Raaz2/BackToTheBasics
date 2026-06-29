@@ -16,6 +16,13 @@ public class Demo {
 //        odd even without modulo %
         System.out.println((n & 1) == 0 ? "EVEN" : "ODD");
 
+
+        System.out.println(isPrime(2));
+        System.out.println(isPrime(17));
+        System.out.println(isPrime(19));
+        System.out.println(isPrime(21));
+
+
     }
     // New method for Binary to Decimal conversion
     public static int convertInDecimal(String binary) {
@@ -42,4 +49,26 @@ public class Demo {
         sb.append(1);
         return sb.reverse().toString();
     }
+
+
+    public static boolean isPrime(int n) {
+        if (n <= 1) return false;
+        for (int i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i == 0) return false;
+        }
+        return true;
+    }
+
+    public static boolean isPrimeOptimized(int n) {
+        if (n <= 1) return false;
+        if (n <= 3) return true; // 2 aur 3 prime hain
+        if (n % 2 == 0 || n % 3 == 0) return false; // Even aur 3 se divide hone wale numbers bahar
+
+        // Loop 5 se start hoga aur har baar 6 steps aage badhega (5, 11, 17...)
+        for (int i = 5; i * i <= n; i += 6) {
+            if (n % i == 0 || n % (i + 2) == 0) return false;
+        }
+        return true;
+    }
+
 }
