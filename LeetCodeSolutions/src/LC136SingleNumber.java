@@ -3,6 +3,7 @@ public class LC136SingleNumber {
         int[] arr = {4, 1, 2, 1, 2};
         int ans = singleNumber(arr);
         System.out.printf(String.valueOf(ans));
+
     }
 
     public static int singleNumber(int[] nums) {
