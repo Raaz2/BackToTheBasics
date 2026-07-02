@@ -8,21 +8,22 @@ public class Demo {
 
         int n = 16;
         String binaryStr = convertInBinary(n);
-        System.out.println("Binary Representation: " + binaryStr);
-        System.out.println("Decimal representation: " + convertInDecimal(binaryStr));
+//        System.out.println("Binary Representation: " + binaryStr);
+//        System.out.println("Decimal representation: " + convertInDecimal(binaryStr));
 
 
 
 //        odd even without modulo %
-        System.out.println((n & 1) == 0 ? "EVEN" : "ODD");
+//        System.out.println((n & 1) == 0 ? "EVEN" : "ODD");
 
 
-        System.out.println(isPrime(2));
-        System.out.println(isPrime(17));
-        System.out.println(isPrime(19));
-        System.out.println(isPrime(21));
+//        System.out.println(isPrime(2));
+//        System.out.println(isPrime(17));
+//        System.out.println(isPrime(19));
+//        System.out.println(isPrime(21));
 
 
+        System.out.println(15 >> 1);
     }
     // New method for Binary to Decimal conversion
     public static int convertInDecimal(String binary) {
