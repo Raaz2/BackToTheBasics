@@ -1,7 +1,7 @@
 public class LC191 {
     public static void main(String[] args) {
 // number of set bits (1)
-        int n = 11;
+        int n = 21;
         System.out.println(hammingWeight(n)); // 11 in binary => 1011 (count of 1 is 3)
     }
 
