@@ -17,7 +17,7 @@ public class LC461HammingDistance {
             count++;
             n -= n & -n;
         }
-        return count;
-//        return Integer.bitCount(x ^ y);
+//        return count;
+        return Integer.bitCount(x ^ y);
     }
 }
