@@ -1,5 +1,5 @@
 public class LC832FlipImage {
-
+  // LC832 Flip Image
     public static void main(String[] args) {
         int[][] image = {{1,1,0},{1,0,1},{0,0,0}};
         for (int[] row : image) {
