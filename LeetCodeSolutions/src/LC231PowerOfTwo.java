@@ -3,6 +3,8 @@ public class LC231PowerOfTwo {
         System.out.println(isPowerOfTwoBitwise(17));
         System.out.println(isPowerOfTwoIteration(36));
         System.out.println(isPowerOfTwoRecursive(128));
+
+        System.out.println(isPowerOfTwoRecursive(-20));
     }
     public static boolean isPowerOfTwoBitwise(int n) {
 //        if (n <= 0) return false;
