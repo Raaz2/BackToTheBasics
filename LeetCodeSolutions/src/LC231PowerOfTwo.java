@@ -5,8 +5,11 @@ public class LC231PowerOfTwo {
         System.out.println(isPowerOfTwoRecursive(128));
     }
     public static boolean isPowerOfTwoBitwise(int n) {
-        if (n <= 0) return false;
-        return (n & n - 1) == 0;
+//        if (n <= 0) return false;
+//        return (n & n - 1) == 0;
+
+
+        return n > 0 && (n & (n - 1)) == 0;
     }
     public static boolean isPowerOfTwoIteration(int n) {
         if (n <= 0) return false;
