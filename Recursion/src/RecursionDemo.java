@@ -30,19 +30,18 @@ public class RecursionDemo {
         }
         return i * factorial(i - 1);
     }
-//    public static int sumOfDigits(int n) {
-//        if (n <= 1) {
-//            return n;
-//        }
-//
-//        return 1 + () n % 10
-//    }
     public static int sumOfDigits(int n) {
-        int res = 0;
-        while (n > 0) {
-            res += n % 10;
-            n /= 10;
+        if (n == 0) {
+            return n;
         }
-        return res;
+        return (n % 10) + sumOfDigits(n / 10);
     }
+//    public static int sumOfDigits(int n) {
+//        int res = 0;
+//        while (n > 0) {
+//            res += n % 10;
+//            n /= 10;
+//        }
+//        return res;
+//    }
 }
