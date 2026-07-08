@@ -7,6 +7,7 @@ public class RecursionDemo {
 
 
         System.out.println(sumOfDigits(1578));
+        System.out.println(prodOfDigits(5555));
     }
     public static void print(int i) {
         if (i >= 6) {
@@ -35,6 +36,13 @@ public class RecursionDemo {
             return n;
         }
         return (n % 10) + sumOfDigits(n / 10);
+    }
+
+    public static int prodOfDigits(int n) {
+        if (n <= 9) {
+            return n;
+        }
+        return (n % 10) * prodOfDigits(n / 10);
     }
 //    public static int sumOfDigits(int n) {
 //        int res = 0;
