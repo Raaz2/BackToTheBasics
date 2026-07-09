@@ -44,12 +44,12 @@ public class RecursionDemo {
         }
         return (n % 10) * prodOfDigits(n / 10);
     }
-//    public static int sumOfDigits(int n) {
-//        int res = 0;
-//        while (n > 0) {
-//            res += n % 10;
-//            n /= 10;
-//        }
-//        return res;
-//    }
+    public static int sumOfDigitsIteration(int n) {
+        int res = 0;
+        while (n > 0) {
+            res += n % 10;
+            n /= 10;
+        }
+        return res;
+    }
 }
