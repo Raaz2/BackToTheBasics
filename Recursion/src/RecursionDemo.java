@@ -5,7 +5,7 @@ public class RecursionDemo {
        int ans =  factorial(6);
         System.out.println(ans);
 
-
+        System.out.println(8282);
         System.out.println(sumOfDigits(9999));
 
         System.out.println(sumOfDigits(1578));
