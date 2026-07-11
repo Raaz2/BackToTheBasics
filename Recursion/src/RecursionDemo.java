@@ -1,15 +1,18 @@
 public class RecursionDemo {
     public static void main(String[] args) {
 //        print(1);
-        printRev(5);
-       int ans =  factorial(6);
-        System.out.println(ans);
+//        printRev(5);
+//       int ans =  factorial(6);
+//        System.out.println(ans);
+//
+//        System.out.println(8282);
+//        System.out.println(sumOfDigits(9999));
+//
+//        System.out.println(sumOfDigits(1578));
+//        System.out.println(prodOfDigits(5555));
 
-        System.out.println(8282);
-        System.out.println(sumOfDigits(9999));
 
-        System.out.println(sumOfDigits(1578));
-        System.out.println(prodOfDigits(5555));
+        System.out.println(rev(2288));
     }
     public static void print(int i) {
         if (i >= 6) {
@@ -53,5 +56,16 @@ public class RecursionDemo {
             n /= 10;
         }
         return res;
+    }
+
+    static int ans = 0;
+
+    public static int rev(int n) {
+        if (n == 0) {
+            return ans;
+        }
+
+        ans = ans * 10 + (n % 10);
+        return rev(n / 10);
     }
 }
