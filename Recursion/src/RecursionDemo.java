@@ -13,6 +13,9 @@ public class RecursionDemo {
 
 
         System.out.println(rev(2288));
+
+
+        System.out.println(countZeroes(20024030, 0));
     }
     public static void print(int i) {
         if (i >= 6) {
@@ -67,5 +70,18 @@ public class RecursionDemo {
 
         ans = ans * 10 + (n % 10);
         return rev(n / 10);
+    }
+
+
+    public static int countZeroes(int num, int count) {
+        if (num == 0) return count;
+
+        int rem = num % 10;
+        if (rem == 0) {
+            count = count + 1;
+            return countZeroes(num / 10, count);
+        }
+
+        return countZeroes(num / 10, count);
     }
 }
