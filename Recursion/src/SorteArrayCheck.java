@@ -33,7 +33,15 @@ public class SorteArrayCheck {
         int[] list = {1,2,3,4,4,8};
         int k = 4;
         ArrayList<Integer> arrayList = returnList(list, k, 0, list.length, new ArrayList<>());
-        System.out.println(arrayList);
+        System.out.println("With ArrayList Passed: " + arrayList);
+
+
+
+
+         list = new int[]{7,9,9,8,1,8};
+         k = 9;
+         arrayList = returnListWithoutParamPassed(list, k, 0, list.length);
+        System.out.println("Without ArrayList Passed: " + arrayList);
     }
 
     public static boolean helper(int[] arr, int start, int end) {
@@ -56,18 +64,33 @@ public class SorteArrayCheck {
 
 
     public static ArrayList<Integer> returnList(int[] arr, int target, int start, int end, ArrayList<Integer> list) {
-        // Base case: stopped at the end of the array
         if (start == end) {
             return list;
         }
 
-        // If target is found, add the index
         if (arr[start] == target) {
             list.add(start);
         }
 
-        // Always recurse to check the remaining elements
         return returnList(arr, target, start + 1, end, list);
+    }
+
+
+    public static ArrayList<Integer> returnListWithoutParamPassed(int[] arr, int target, int start, int end) {
+        ArrayList<Integer> list = new ArrayList<>();
+
+        if (start == end) {
+            return list;
+        }
+
+        if (arr[start] == target) {
+            list.add(start);
+        }
+
+        ArrayList<Integer> belowCallsAns = returnListWithoutParamPassed(arr, target, start + 1, end);
+
+        list.addAll(belowCallsAns);
+        return list;
     }
 
 }
