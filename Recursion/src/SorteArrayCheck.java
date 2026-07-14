@@ -1,3 +1,8 @@
+import com.sun.source.tree.ArrayAccessTree;
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 public class SorteArrayCheck {
     public static void main(String[] args) {
 
@@ -21,6 +26,14 @@ public class SorteArrayCheck {
 
          target = 12;
         System.out.println("Target found " + target + " => " + linearSearch(arr, 0, arr.length - 1, target));
+
+
+
+
+        int[] list = {1,2,3,4,4,8};
+        int k = 4;
+        ArrayList<Integer> arrayList = returnList(list, k, 0, list.length, new ArrayList<>());
+        System.out.println(arrayList);
     }
 
     public static boolean helper(int[] arr, int start, int end) {
@@ -40,4 +53,21 @@ public class SorteArrayCheck {
         if (arr[start] == target) return true;
         else return linearSearch(arr, start + 1, end, target);
     }
+
+
+    public static ArrayList<Integer> returnList(int[] arr, int target, int start, int end, ArrayList<Integer> list) {
+        // Base case: stopped at the end of the array
+        if (start == end) {
+            return list;
+        }
+
+        // If target is found, add the index
+        if (arr[start] == target) {
+            list.add(start);
+        }
+
+        // Always recurse to check the remaining elements
+        return returnList(arr, target, start + 1, end, list);
+    }
+
 }
