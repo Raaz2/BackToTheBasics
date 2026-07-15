@@ -1,6 +1,3 @@
-import com.sun.source.tree.ArrayAccessTree;
-
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class SorteArrayCheck {
