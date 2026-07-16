@@ -134,4 +134,34 @@ public class PatternUsingRecursion {
             selection(arr, row - 1, 0, 0);
         }
     }
+
+    class Solution {
+        public int[] sortArray(int[] nums) {
+            divide(nums, 0, nums.length - 1);
+            return nums;
+        }
+        public void divide(int[] arr, int start, int end) {
+            if (start < end) {
+                int mid = start + (end - start) / 2;
+                divide(arr, start, mid);
+                divide(arr, mid + 1, end);
+                conquer(arr, start, mid, end);
+            };
+        }
+        public void conquer(int[] arr, int start, int mid, int end) {
+            int[] merged = new int[end - start + 1];
+            int i = start, j = mid + 1, k = 0;
+            while (i <= mid && j <= end) {
+                if (arr[i] <= arr[j]) {
+                    merged[k++] = arr[i++];
+                } else merged[k++] = arr[j++];
+            }
+            while (i <= mid) merged[k++] = arr[i++];
+            while (j <= end) merged[k++] = arr[j++];
+            int y = 0;
+            for (int x = start; x <= end; x++) {
+                arr[x] = merged[y++];
+            }
+        }
+    }
 }
