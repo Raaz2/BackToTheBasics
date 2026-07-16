@@ -126,12 +126,11 @@ public class PatternUsingRecursion {
 
         } else {
 
-            // Place the maximum element at its correct position
             int temp = arr[max];
             arr[max] = arr[row];
             arr[row] = temp;
 
-            // Sort the remaining array
+
             selection(arr, row - 1, 0, 0);
         }
     }
