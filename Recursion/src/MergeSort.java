@@ -20,9 +20,23 @@ public class MergeSort {
 
     public static void merge(int[] arr, int start, int mid, int end) {
         int[] merged = new int[end - start + 1];
-        int i = start, int j = mid + 1;
-        while (i <= mid && j <= end) {
+        int i = start, j = mid + 1, k = 0;
 
+        while (i <= mid && j <= end) {
+            if (arr[i] <= arr[j]) {
+                merged[k++] = arr[i++];
+            } else {
+                merged[k++] = arr[j++];
+            }
+        }
+
+        while (i <= mid) merged[k++] = arr[i++];
+        while (j <= end) merged[k++] = arr[j++];
+
+        // 1. यहाँ कमेंट हटाया: सॉर्टेड एलिमेंट्स को वापस original array में डाला
+        int y = 0;
+        for (int x = start; x <= end; x++) {
+            arr[x] = merged[y++];
         }
     }
 }
