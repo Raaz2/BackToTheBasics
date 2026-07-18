@@ -1,15 +1,17 @@
+import java.util.Arrays;
+
 public class MergeSort {
     public static void main(String[] args) {
         int[] arr = {8, 18, 2, 15, 11, 27, 7};
 
         mergeSort(arr, 0, arr.length - 1);
 
-
+        System.out.println(Arrays.toString(arr));
 
     }
 
-    public static int[] mergeSort(int[] arr, int start, int end) {
-        if (start >= end) return arr;
+    public static void mergeSort(int[] arr, int start, int end) {
+        if (start >= end) return;
 
         int mid = start + (end - start) / 2;
 
