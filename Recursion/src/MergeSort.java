@@ -33,7 +33,6 @@ public class MergeSort {
         while (i <= mid) merged[k++] = arr[i++];
         while (j <= end) merged[k++] = arr[j++];
 
-        // 1. यहाँ कमेंट हटाया: सॉर्टेड एलिमेंट्स को वापस original array में डाला
         int y = 0;
         for (int x = start; x <= end; x++) {
             arr[x] = merged[y++];
