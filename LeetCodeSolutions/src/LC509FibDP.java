@@ -6,6 +6,7 @@ public class LC509FibDP {
         System.out.println(ans);
     }
 
+
     public static int fib(int n, int[] dp) {
         if (n <= 1) return n;
 
@@ -13,7 +14,7 @@ public class LC509FibDP {
             return dp[n];
         }
         else {
-            return dp[n] = fib(n - 1, dp) + fib(n - 2, dp);
+            return dp[n] = fib(n - 1, dp) + fib(n - 2, dp); // O(n), if we don't store 2^n
         }
     }
 }
