@@ -1,6 +1,6 @@
 public class LC509FibDP {
     public static void main(String[] args) {
-        int n = 60;
+        int n = 40;
         int ans = fib(n, new int[n + 1]);
 
         System.out.println(ans);
