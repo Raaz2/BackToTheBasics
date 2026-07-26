@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class Permutations {
     public static void main(String[] args) {
@@ -6,8 +7,31 @@ public class Permutations {
         ArrayList<String> list = permutationsReturn("", "xyz");
         System.out.println("==============================");
         System.out.println(list);
-    }
 
+
+        int[] arr = {1, 2, 3};
+        List<List<Integer>> result = new ArrayList<>();
+        backtrack(result, new ArrayList<>(), arr);
+        System.out.println(result);
+    }
+    private static  void backtrack(List<List<Integer>> result, List<Integer> tempList, int[] nums) {
+        if (tempList.size() == nums.length) {
+            result.add(new ArrayList<>(tempList));
+            return;
+        }
+
+        for (int i = 0; i < nums.length; i++) {
+            if (tempList.contains(nums[i])) {
+                continue;
+            }
+
+            tempList.add(nums[i]);
+
+            backtrack(result, tempList, nums);
+
+            tempList.remove(tempList.size() - 1);
+        }
+    }
     public static void permutations(String p, String up) {
         if (up.isEmpty()) {
             System.out.println(p);
