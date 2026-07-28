@@ -4,12 +4,12 @@ import java.util.List;
 public class Permutations {
     public static void main(String[] args) {
         permutations("", "abc");
-        ArrayList<String> list = permutationsReturn("", "xyz");
+        ArrayList<String> list = permutationsReturn("", "def");
         System.out.println("==============================");
         System.out.println(list);
 
 
-        int[] arr = {1, 2, 5, 4};
+        int[] arr = {9, 2, 5, 4};
         List<List<Integer>> result = new ArrayList<>();
         backtrack(result, new ArrayList<>(), arr);
         System.out.println(result);
