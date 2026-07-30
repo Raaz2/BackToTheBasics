@@ -3,8 +3,8 @@ import java.util.List;
 
 public class Permutations {
     public static void main(String[] args) {
-        permutations("", "abc");
-        ArrayList<String> list = permutationsReturn("", "def");
+        permutations("", "pqr");
+        ArrayList<String> list = permutationsReturn("", "xyz");
         System.out.println("=======================");
         System.out.println(list);
 
