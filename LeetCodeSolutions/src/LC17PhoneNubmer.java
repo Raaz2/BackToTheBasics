@@ -13,7 +13,7 @@ public class LC17PhoneNubmer {
 
 
     static class Solution {
-        // 1. Fixed Keypad Mapping
+
         private static final String[] KEYPAD = {
                 "",     // 0
                 "",     // 1
@@ -39,15 +39,15 @@ public class LC17PhoneNubmer {
             return list;
         }
 
-        // 3. Helper Method passing the result list
+
         private void pad(String p, String up, List<String> list) {
             if (up.isEmpty()) {
-                list.add(p); // 4. Add to list instead of printing
+                list.add(p);
                 return;
             }
 
             int digit = up.charAt(0) - '0';
-            String letters = KEYPAD[digit]; // 5. Map correct string length
+            String letters = KEYPAD[digit];
 
             for (int i = 0; i < letters.length(); i++) {
                 char ch = letters.charAt(i);
