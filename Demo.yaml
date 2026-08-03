@@ -1,0 +1,12 @@
+"intro" : "my name is Rajeev"
+7 : "thala for a reason"
+---
+# lists
+- apple
+- mango
+- banana
+---
+cities:
+  - new delhi
+  - mumbai
+... # end of document
