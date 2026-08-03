@@ -9,4 +9,24 @@
 cities:
   - new delhi
   - mumbai
+
+num : !!int 5
+
+# reusing some properties with anchros
+likings: &likes
+  fav fruit: mango
+  dislikes: grapes
+
+person1:
+  name: Rajeev
+  <<: *likes
+
+person2:
+  name: Ravi
+  <<: *likes
+  dislikes: guava
+
+person3:
+  name: Kamal
+  <<: *likes
 ... # end of document
