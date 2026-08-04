@@ -29,4 +29,8 @@ person2:
 person3:
   name: Kamal
   <<: *likes
+
+person4:
+  name: Kishore
+  <<: *likes
 ... # end of document
