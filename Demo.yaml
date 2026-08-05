@@ -11,6 +11,7 @@ cities:
   - mumbai
 
 num : !!int 5
+num2 : !!int 7
 
 # reusing some properties with anchros
 likings: &likes
@@ -19,6 +20,10 @@ likings: &likes
 
 person1:
   name: Rajeev
+  <<: *likes
+
+person11:
+  name: Mishra
   <<: *likes
 
 person2:
