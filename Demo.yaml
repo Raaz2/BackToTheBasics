@@ -7,7 +7,7 @@
 - banana
 ---
 cities:
-  - new delhi
+  - New Delhi
   - mumbai
 
 num : !!int 5
