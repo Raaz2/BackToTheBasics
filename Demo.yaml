@@ -13,6 +13,7 @@ cities:
 num : !!int 5
 num2 : !!int 7
 num3 : !!int 9
+num4 : !!int 10
 
 # reusing some properties with anchros
 likings: &likes
