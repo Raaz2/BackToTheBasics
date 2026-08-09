@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/BackToTheBasics.iml" filepath="$PROJECT_DIR$/.idea/BackToTheBasics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinarySearch/BinarySearch.iml" filepath="$PROJECT_DIR$/BinarySearch/BinarySearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bitwise/Bitwise.iml" filepath="$PROJECT_DIR$/Bitwise/Bitwise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCodeSolutions/LeetCodeSolutions.iml" filepath="$PROJECT_DIR$/LeetCodeSolutions/LeetCodeSolutions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinearSearchInArrays/LinearSearchInArrays.iml" filepath="$PROJECT_DIR$/LinearSearchInArrays/LinearSearchInArrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting/Sorting.iml" filepath="$PROJECT_DIR$/Sorting/Sorting.iml" />
+    </modules>
+  </component>
+</project>
