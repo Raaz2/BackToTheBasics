@@ -1,5 +1,6 @@
 import java.util.Arrays;
 
+//bubble sort is an 0(n ** 2) soln
 public class BubbleSort {
     public static void main(String[] args) {
         int[] arr = {87, 3, 49, 12, 5, 99};
