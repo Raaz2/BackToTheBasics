@@ -5,7 +5,7 @@ public class LC17PhoneNubmer {
     public static void main(String[] args) {
         Solution solution = new LC17PhoneNubmer.Solution();
 
-        String digits = "59";
+        String digits = "95";
         List<String> ans = solution.letterCombinations(digits);
         System.out.println(ans);
 
