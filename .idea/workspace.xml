@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b728278-670d-4a0b-bcd6-d68d62d6477e" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Demo.yaml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3EgD16W49dXBbDOb5Dqz5usuKPW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BinarySearchMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BubbleSort.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CelingOfNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CyclicSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FloorOfNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InsertionSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaRun.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC136SingleNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC1486XOR.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC162.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LC17PhoneNubmer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC191.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC231PowerOfTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC287.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC34.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC344ReverseString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC41FirstMissingPositive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC442.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LC448.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC461.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC461HammingDistance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC509FibDP.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC509Fibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC645.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LC704RecursiveBinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC744.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC832FlipImage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatternUsingRecursion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Permutations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RecursionDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotatedBinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Search.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SelectionSort.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SkipACharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SorteArrayCheck.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubSequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubSets.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="JavaRun" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../Program Files/Java/jdk-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b728278-670d-4a0b-bcd6-d68d62d6477e" name="Changes" comment="" />
+      <created>1780591106277</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780591106277</updated>
+      <workItem from="1780591115358" duration="5504000" />
+      <workItem from="1780675610274" duration="4815000" />
+      <workItem from="1780764169211" duration="3133000" />
+      <workItem from="1780771101884" duration="19000" />
+      <workItem from="1780771183651" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCodeSolutions/src/LC162.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/BinarySearch/src/RotatedBinarySearch.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Sorting/src/SelectionSort.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Sorting/src/CyclicSort.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/LeetCodeSolutions/src/LC704RecursiveBinarySearch.java</url>
+          <line>1</line>
+          <properties class="LC704RecursiveBinarySearch" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
