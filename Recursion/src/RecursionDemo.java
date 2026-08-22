@@ -1,3 +1,5 @@
+package Recursion.src;
+
 public class RecursionDemo {
     public static void main(String[] args) {
         print(1);
@@ -72,7 +74,7 @@ public class RecursionDemo {
         return rev(n / 10);
     }
 
-
+// count zeroes solution recursively
     public static int countZeroes(int num, int count) {
         if (num == 0) return count;
 
