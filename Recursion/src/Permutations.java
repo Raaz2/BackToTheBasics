@@ -8,6 +8,8 @@ public class Permutations {
         permutations("", "pqr");
         ArrayList<String> list = permutationsReturn("", "xyz");
         System.out.println("=======================");
+
+        System.out.println("=======================");
         System.out.println(list);
 
 
