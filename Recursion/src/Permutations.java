@@ -20,6 +20,7 @@ public class Permutations {
         backtrack(result, new ArrayList<>(), arr);
         System.out.println(result);
     }
+    // backtrack is basically going back to the paths which are possible
     private static  void backtrack(List<List<Integer>> result, List<Integer> tempList, int[] nums) {
         if (tempList.size() == nums.length) {
             result.add(new ArrayList<>(tempList));
