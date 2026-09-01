@@ -11,7 +11,6 @@ public class Permutations {
 
 
         System.out.print("September is going to start after one day!");
-        System.out.println("=======================");
         System.out.println(list);
 
 
