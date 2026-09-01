@@ -13,7 +13,7 @@ public class Permutations {
         System.out.print("September is going to start after one day!");
         System.out.println(list);
 
-
+        System.out.println("Leetcode lite will be started");
 
         int[] arr = {9, 8, 7};
         List<List<Integer>> result = new ArrayList<>();
