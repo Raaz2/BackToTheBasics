@@ -14,7 +14,8 @@ public class Permutations {
         System.out.println(list);
 
 
-        int[] arr = {9, 2, 5, 4};
+
+        int[] arr = {9, 8, 7};
         List<List<Integer>> result = new ArrayList<>();
         backtrack(result, new ArrayList<>(), arr);
         System.out.println(result);
