@@ -16,5 +16,5 @@ public class Main {
         return left + right;
     }
 
-
+    // Rat in a maze
 }
