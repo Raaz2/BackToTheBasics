@@ -18,4 +18,5 @@ public class Main {
 
     // Rat in a maze
     // Setting up again to start the project on my local
+    // seeting up java again
 }
