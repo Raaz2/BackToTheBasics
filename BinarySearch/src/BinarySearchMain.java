@@ -1,5 +1,3 @@
-package BinarySearch.src;
-
 import java.util.Scanner;
 
 public class BinarySearchMain {

@@ -1,5 +1,3 @@
-package Recursion.src;
-
 import java.util.Arrays;
 
 public class PatternUsingRecursion {

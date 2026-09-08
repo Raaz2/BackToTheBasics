@@ -1,5 +1,3 @@
-package Recursion.src;
-
 public class RecursionDemo {
     public static void main(String[] args) {
         print(1);

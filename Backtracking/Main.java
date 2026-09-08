@@ -1,5 +1,3 @@
-package Backtracking;
-
 public class Main {
     public static void main() {
         System.out.println(count(3,3));
