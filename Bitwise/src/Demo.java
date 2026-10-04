@@ -17,9 +17,6 @@ public class Demo {
 //        System.out.println((n & 1) == 0 ? "EVEN" : "ODD");
 
 
-//        System.out.println(isPrime(2));
-//        System.out.println(isPrime(17));
-//        System.out.println(isPrime(19));
 //        System.out.println(isPrime(21));
 
 
