@@ -17,9 +17,6 @@ public class Demo {
 //        System.out.println((n & 1) == 0 ? "EVEN" : "ODD");
 
 
-//        System.out.println(isPrime(21));
-
-
         System.out.println(15 >> 1);
     }
     // New method for Binary to Decimal conversion
