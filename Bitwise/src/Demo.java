@@ -1,6 +1,5 @@
 public class Demo {
     public static void main(String[] args) {
-//        Even or Odd
         // AND = '& with 1' (1 means true) digits remain the same
         // OR = '|' any expression true all will true
         // XOR (^) (if and only if) exclusive or  7 ^ 7 = 0
