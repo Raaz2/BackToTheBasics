@@ -6,7 +6,6 @@ public class SubSequence {
     public static void main(String[] args) {
         String str = "abcd";
         subseq(str, "");
-        System.out.println("================================");
         List<String> list = subseqlistreturn(str, "");
         System.out.println(list);
     }
