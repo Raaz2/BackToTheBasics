@@ -9,12 +9,10 @@ public class PatternUsingRecursion {
         // Pattern 1
         pattern(n, 0);
 
-        System.out.println("=========================");
-
+      
         // Pattern 2
         pattern2(n, 0);
 
-        System.out.println("=========================");
 
         // Bubble Sort
         int[] arr = {2, 8, 5, 7};
