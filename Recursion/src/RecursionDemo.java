@@ -8,7 +8,6 @@ public class RecursionDemo {
         System.out.println(8282);
         System.out.println(sumOfDigits(9999));
 
-        System.out.println(sumOfDigits(1578));
         System.out.println(prodOfDigits(5555));
 
 
