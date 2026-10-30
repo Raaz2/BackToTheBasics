@@ -5,7 +5,7 @@ public class Search {
         int ans = searchNum(nums, k);
         System.out.println(ans);
 
-        String str = "Rajeev Ranjan Mishra";
+        String str = "Rajeev Mishra";
         int idx = searchStr(str, 'R');
         System.out.println(idx);
     }
