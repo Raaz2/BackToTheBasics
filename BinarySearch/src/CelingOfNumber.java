@@ -29,6 +29,6 @@ public class CelingOfNumber {
             }
         }
         // when loop ends | end | <target (if exist)> | start
-        return start; // start will be the ceil if exact target not found
+        return start; 
     }
 }
