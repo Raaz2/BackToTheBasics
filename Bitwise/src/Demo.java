@@ -22,8 +22,6 @@ public class Demo {
     public static int convertInDecimal(String binary) {
         int decimalValue = 0;
         int power = 0;
-
-        // Loop from the last character to the first character
         for (int i = binary.length() - 1; i >= 0; i--) {
             if (binary.charAt(i) == '1') {
                 decimalValue += Math.pow(2, power);
